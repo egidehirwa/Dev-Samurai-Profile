@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <nav>
+                <img src="images/logo.png" alt="logoipsum logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                </ul>
+                <img src="images/menu.png" alt="menu icon" class="menu-icon">
+            </nav>
+    
+            <div class="text-box">
+                <h1>Hello <span class="auto-input"></span></h1>
+                <p>I am currently learning JavaScript and plan to join BeCode so that l can be job ready in 7 months, <br> follow my GitHub profile to see my progress.</p>
+                <a href="https://twitter.com/egidehirwa" target="_blank">Twitter Profile</a>
+                <a href="https://github.com/egidehirwa" target="_blank" class="btn">GitHub Profile</a>
+            </div>
+            <img src="images/user.png" alt="user's profile picture" class="user-img">
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["👋🏾 I'm Egide", "I'm A Web Developer", "I'm A Ui Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
