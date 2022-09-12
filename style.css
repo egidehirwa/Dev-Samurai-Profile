@@ -73,10 +73,11 @@ nav ul li a:hover{
     letter-spacing: 1px;
     line-height: 26px;
     padding: 0px 30px;
+    max-width: 60%;
 }
 
 .text-box h1{
-    font-size: 75px;
+    font-size: 64px;
     line-height: 160px;
 }
 
@@ -98,7 +99,7 @@ nav ul li a:hover{
 }
 
 .user-img{
-    width: 740px;
+    width: 540px;
     position: absolute;
     right: 0;
     bottom: 0;
